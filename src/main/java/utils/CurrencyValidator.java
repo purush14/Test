@@ -6,7 +6,7 @@ public class CurrencyValidator {
 	private void validateCurrency() {
 		try {
 			Currency.getInstance("EUY");
-			System.out.println("expected currency : "  );
+			System.out.println("expected currency : ");
 		} catch (Exception e) {
 			System.out.println("not a valid currency");
 		}
